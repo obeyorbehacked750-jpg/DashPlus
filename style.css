@@ -1,0 +1,70 @@
+.account-nav_user-info_AH1XY .account-nav_thumbnail_sjhou {
+border-radius: calc(1rem/2) !important;
+box-shadow: none !important;
+}
+
+.crash-message_crash-wrapper_enCKA {
+border-radius: 0.75rem;
+}
+
+/* secret :) */
+.interface_commit-version_ywNg3:hover {
+outline: 10px solid var(--looks-transparent);;
+outline-offset: 0.1px;
+}
+
+.interface_commit-version_ywNg3 {
+transition: outline 0.2s ease-in-out, outline-offset 0.2s ease-in-out;
+outline: 2px solid transparent;
+outline-offset: 0.1px;
+}
+
+.blocks_blocks_xkzYb .blocklyFlyout {
+border-top-right-radius: 0.5rem;
+border-bottom-right-radius: 0.5rem;
+}
+
+.user_set-recommended-project-button_pXgQ6 {
+margin: 8px;
+}
+
+.user_section_lOmTA {
+border-radius: 0.75rem !important;
+padding: 1rem !important;
+}
+
+.blocks_blocks_xkzYb .injectionDiv {
+border: none !important;
+}
+
+.tool-select-base_mod-tool-select_n9BGa {
+border-radius: 0.7rem !important;
+}
+
+.blocklyWidgetDiv .goog-menu {
+padding: 0.5rem !important;
+}
+
+.blocklyContextMenu {
+border-radius: 0.7rem !important;
+}
+
+.goog-menuitem-highlight {
+border-radius: 0.4rem !important;
+}
+
+
+.featured-projects_featured-projects-thumbnail_ZOsNg img {
+border-radius: 0.5rem !important;
+}
+
+.featured-projects_featured-projects-thumbnail_ZOsNg::before {
+background-color: none !important;
+border-radius: 0.5rem !important;
+}
+
+.label_input-group-column_G_Pch {
+display: inline-flex !important;
+flex-direction: row !important;
+align-items: center !important;
+}

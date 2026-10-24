@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "Dash+",
+  "version": "1.54",
+  "description": "Make Dash GUI better like Mistwarp! \n WARNING: This content made by dash team or not asociated with dash team!",
+  "permissions": ["storage", "scripting", "activeTab"],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://dashblocks.org/*",
+        "https://dashblocks.vercel.app/*"
+      ],
+      "css": ["style.css"],
+      "js": ["addons/addon-loader.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": { 
+    "default_popup": "popup/index.html" 
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "addons/addons.json",
+        "addons/*/*"
+      ],
+      "matches": [
+        "https://dashblocks.org/*"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16x16.png",
+    "48": "icons/icon48x48.png",
+    "128": "icons/icon128x128.png"
+  }
+}
